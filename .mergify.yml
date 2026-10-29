@@ -1,0 +1,10 @@
+extends: mgtest-a-src-8a1f
+
+pull_request_rules:
+  - name: x2 local
+    conditions:
+      - base = main
+    actions:
+      label:
+        add:
+          - x2-local
